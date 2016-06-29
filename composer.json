@@ -1,0 +1,22 @@
+{
+    "name": "dendev/test_me",
+    "description": "wp test",
+    "type": "libs",
+    "require": {
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "dendev",
+            "email": "dendev.mobile@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "DenDev\\Test\\": "src"
+        }
+    }
+}
